@@ -1,0 +1,1361 @@
+1612812660814	geckodriver	INFO	Listening on 127.0.0.1:33289
+1612812660819	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileyHfS4n"
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612812664126	Marionette	INFO	Listening on port 42075
+1612812664181	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612812664205	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+1612812690374	Marionette	INFO	Stopped listening on port 42075
+1612812808886	geckodriver	INFO	Listening on 127.0.0.1:50061
+1612812808891	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilefNF7Of"
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612812812303	Marionette	INFO	Listening on port 45983
+1612812812448	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612812812467	Marionette	ERROR	[15] No reply from Marionette:Register
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1612813066906	geckodriver	INFO	Listening on 127.0.0.1:56159
+1612813066912	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile4w5Wqa"
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612813070251	Marionette	INFO	Listening on port 44479
+1612813070416	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612813070437	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1612813286209	geckodriver	INFO	Listening on 127.0.0.1:53505
+1612813286213	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilePYuTsJ"
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612813289876	Marionette	INFO	Listening on port 43247
+1612813289967	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612813290004	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+1612813316629	Marionette	INFO	Stopped listening on port 43247
+1612813385793	geckodriver	INFO	Listening on 127.0.0.1:35085
+1612813385798	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile4GX5r5"
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612813389164	Marionette	INFO	Listening on port 35499
+1612813389246	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612813389269	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1612813419349	Marionette	INFO	Stopped listening on port 35499
+1612813485412	geckodriver	INFO	Listening on 127.0.0.1:46091
+1612813485416	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile8FjP2a"
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612813488978	Marionette	INFO	Listening on port 36489
+1612813489080	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612813489114	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1612813515121	Marionette	INFO	Stopped listening on port 36489
+1612813595540	geckodriver	INFO	Listening on 127.0.0.1:43017
+1612813595544	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile1T69NV"
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612813599059	Marionette	INFO	Listening on port 40779
+1612813599191	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612813599209	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+1612813630176	Marionette	INFO	Stopped listening on port 40779
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1612813717047	geckodriver	INFO	Listening on 127.0.0.1:48071
+1612813717052	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile4D5OOg"
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612813720393	Marionette	INFO	Listening on port 41905
+1612813720533	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612813720580	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1612813746596	Marionette	INFO	Stopped listening on port 41905
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1612813788781	geckodriver	INFO	Listening on 127.0.0.1:51595
+1612813788786	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilepUT0ry"
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612813792287	Marionette	INFO	Listening on port 36083
+1612813792357	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612813792384	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1612813818586	Marionette	INFO	Stopped listening on port 36083
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1612814042428	geckodriver	INFO	Listening on 127.0.0.1:56553
+1612814042433	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilenfBEVE"
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612814046042	Marionette	INFO	Listening on port 43413
+1612814046110	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612814046142	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+1612814072313	Marionette	INFO	Stopped listening on port 43413
+1612814250085	geckodriver	INFO	Listening on 127.0.0.1:57691
+1612814250090	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileolpoV1"
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612814253452	Marionette	INFO	Listening on port 39511
+1612814253582	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612814253617	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+1612814278899	Marionette	INFO	Stopped listening on port 39511
+1612900412641	geckodriver	INFO	Listening on 127.0.0.1:34195
+1612900412648	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilefgctAL"
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612900414718	Marionette	INFO	Listening on port 44361
+1612900414793	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612900414815	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1612900434166	Marionette	INFO	Stopped listening on port 44361
+1612900450980	geckodriver	INFO	Listening on 127.0.0.1:47321
+1612900451987	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilelPHHAg"
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612900454042	Marionette	INFO	Listening on port 46867
+1612900454118	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612900454136	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1612900473257	Marionette	INFO	Stopped listening on port 46867
+1612900507340	geckodriver	INFO	Listening on 127.0.0.1:57427
+1612900507345	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileYq1Rm9"
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612900509421	Marionette	INFO	Listening on port 34803
+1612900509481	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612900509497	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: https://scdn.italki.com/orion/static/js/main.d3da3101.chunk.js, line 2: Error: Request aborted
+JavaScript error: https://scdn.italki.com/orion/static/js/main.d3da3101.chunk.js, line 2: Error: Request aborted
+JavaScript error: https://scdn.italki.com/orion/static/js/main.d3da3101.chunk.js, line 2: Error: Request aborted
+JavaScript error: https://scdn.italki.com/orion/static/js/main.d3da3101.chunk.js, line 2: Error: Request aborted
+1612900529136	Marionette	INFO	Stopped listening on port 34803
+1612900564419	geckodriver	INFO	Listening on 127.0.0.1:59611
+1612900564424	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilecUmUN2"
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612900566606	Marionette	INFO	Listening on port 39471
+1612900566672	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612900566690	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1612900586387	Marionette	INFO	Stopped listening on port 39471
+1612900628943	geckodriver	INFO	Listening on 127.0.0.1:47209
+1612900628948	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileb0OEwh"
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612900631069	Marionette	INFO	Listening on port 45691
+1612900631183	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612900631200	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1612900650750	Marionette	INFO	Stopped listening on port 45691
+1612900652705	geckodriver	INFO	Listening on 127.0.0.1:42437
+1612900653712	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileN20yll"
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612900655758	Marionette	INFO	Listening on port 45051
+1612900655855	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612900655874	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://cafetalk.com/resources/library/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://cafetalk.com/resources/library/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1612900690224	Marionette	INFO	Stopped listening on port 45051
+1612903136465	geckodriver	INFO	Listening on 127.0.0.1:42053
+1612903136470	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilejlg8kf"
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612903138566	Marionette	INFO	Listening on port 45949
+1612903138598	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612903138617	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+1612903158098	Marionette	INFO	Stopped listening on port 45949
+1612903160119	geckodriver	INFO	Listening on 127.0.0.1:52999
+1612903160125	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileK6XoMY"
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612903162063	Marionette	INFO	Listening on port 32923
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612903162159	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612903162178	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://cafetalk.com/resources/library/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://cafetalk.com/resources/library/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1612903196907	Marionette	INFO	Stopped listening on port 32923
+1612946951417	geckodriver	INFO	Listening on 127.0.0.1:60329
+1612946951422	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileCpGTeX"
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612946953764	Marionette	INFO	Listening on port 39781
+1612946953864	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612946953885	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+1612946975448	Marionette	INFO	Stopped listening on port 39781
+1612946976989	geckodriver	INFO	Listening on 127.0.0.1:51613
+1612946976994	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile5VfzM7"
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612946979053	Marionette	INFO	Listening on port 45193
+1612946979128	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612946979146	Marionette	ERROR	[18] No reply from Marionette:Register
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1612946998570	Marionette	INFO	Stopped listening on port 45193
+1612947126484	geckodriver	INFO	Listening on 127.0.0.1:33767
+1612947126490	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileno51u2"
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612947128600	Marionette	INFO	Listening on port 41525
+1612947128729	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612947128747	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1612947149862	Marionette	INFO	Stopped listening on port 41525
+1612947151424	geckodriver	INFO	Listening on 127.0.0.1:38171
+1612947151430	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilevqa8dM"
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612947153473	Marionette	INFO	Listening on port 42795
+1612947153578	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612947153597	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+1612947173262	Marionette	INFO	Stopped listening on port 42795
+1612949268151	geckodriver	INFO	Listening on 127.0.0.1:53089
+1612949268157	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileFo6m7a"
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612949270412	Marionette	INFO	Listening on port 38699
+1612949270502	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612949270521	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1612949291753	Marionette	INFO	Stopped listening on port 38699
+1612949293295	geckodriver	INFO	Listening on 127.0.0.1:38839
+1612949293302	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileiFRW0R"
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612949295358	Marionette	INFO	Listening on port 36307
+1612949295451	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612949295470	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1612949315289	Marionette	INFO	Stopped listening on port 36307
+1612949317442	geckodriver	INFO	Listening on 127.0.0.1:60935
+1612949317447	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileOTykir"
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612949319621	Marionette	INFO	Listening on port 33571
+1612949319690	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612949319709	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://cafetalk.com/resources/library/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://cafetalk.com/resources/library/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1612949354691	Marionette	INFO	Stopped listening on port 33571
+1612949571754	geckodriver	INFO	Listening on 127.0.0.1:56177
+1612949571760	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile5hsFdh"
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612949573911	Marionette	INFO	Listening on port 43897
+1612949573989	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612949574006	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1612949595560	Marionette	INFO	Stopped listening on port 43897
+1612949597105	geckodriver	INFO	Listening on 127.0.0.1:56753
+1612949597112	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileCMLfjR"
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612949599042	Marionette	INFO	Listening on port 44219
+1612949599181	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612949599200	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1612949619170	Marionette	INFO	Stopped listening on port 44219
+1612949621537	geckodriver	INFO	Listening on 127.0.0.1:57019
+1612949622545	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile0p973E"
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612949624652	Marionette	INFO	Listening on port 38885
+1612949624774	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612949624793	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://cafetalk.com/resources/library/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://cafetalk.com/resources/library/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1612949661824	Marionette	INFO	Stopped listening on port 38885
+1612949666554	geckodriver	INFO	Listening on 127.0.0.1:35731
+1612949666560	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilePGVy2o"
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612949668617	Marionette	INFO	Listening on port 45081
+1612949668743	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612949668760	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://cafetalk.com/resources/library/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://cafetalk.com/resources/library/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1612949701918	Marionette	INFO	Stopped listening on port 45081
+1612951946708	geckodriver	INFO	Listening on 127.0.0.1:45357
+1612951946713	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileoQeK5Q"
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612951948874	Marionette	INFO	Listening on port 39755
+1612951948957	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612951948979	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: https://scdn.italki.com/orion/static/js/main.d3da3101.chunk.js, line 2: Error: Request aborted
+1612951970589	Marionette	INFO	Stopped listening on port 39755
+1612952302528	geckodriver	INFO	Listening on 127.0.0.1:41313
+1612952302533	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileMuVoEw"
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612952304667	Marionette	INFO	Listening on port 45927
+1612952304766	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612952304782	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1612952325997	Marionette	INFO	Stopped listening on port 45927
+1612952330392	geckodriver	INFO	Listening on 127.0.0.1:43349
+1612952330399	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilektH11A"
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612952332266	Marionette	INFO	Listening on port 40461
+1612952332400	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612952332429	Marionette	ERROR	[15] No reply from Marionette:Register
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+1612952352178	Marionette	INFO	Stopped listening on port 40461
+1612952356903	geckodriver	INFO	Listening on 127.0.0.1:57407
+1612952356909	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileW3wPM0"
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612952358926	Marionette	INFO	Listening on port 36221
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612952359045	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612952359063	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://cafetalk.com/resources/library/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://cafetalk.com/resources/library/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1612952394192	Marionette	INFO	Stopped listening on port 36221
+1612952397498	geckodriver	INFO	Listening on 127.0.0.1:45155
+1612952397504	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileqpeOBA"
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612952399662	Marionette	INFO	Listening on port 35567
+1612952399774	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612952399794	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://cafetalk.com/resources/library/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://cafetalk.com/resources/library/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1612952438577	Marionette	INFO	Stopped listening on port 35567
+1612952800024	geckodriver	INFO	Listening on 127.0.0.1:49693
+1612952800029	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileNv9csF"
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612952802113	Marionette	INFO	Listening on port 42819
+1612952802168	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612952802180	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+1612952824542	Marionette	INFO	Stopped listening on port 42819
+1612952828249	geckodriver	INFO	Listening on 127.0.0.1:37391
+1612952828256	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile9f1SpC"
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612952830235	Marionette	INFO	Listening on port 46397
+1612952830312	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612952830331	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript error: https://www.gstatic.com/recaptcha/releases/2Mfykwl2mlvyQZQ3PEgoH710/recaptcha__en.js, line 74: Error: Invalid site key or not loaded in api.js: 6LcQG88ZAAAAAE8wvFrg-2NUdLv7WBPi3MZxVLBs
+1612952854534	Marionette	INFO	Stopped listening on port 46397
+1612952858855	geckodriver	INFO	Listening on 127.0.0.1:41323
+1612952859862	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileG9V8an"
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612952861953	Marionette	INFO	Listening on port 32997
+1612952862000	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612952862030	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://cafetalk.com/resources/library/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://cafetalk.com/resources/library/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1612952894729	Marionette	INFO	Stopped listening on port 32997
+1612952898185	geckodriver	INFO	Listening on 127.0.0.1:36665
+1612952898191	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilemlFScm"
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612952900190	Marionette	INFO	Listening on port 45605
+1612952900300	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612952900319	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://cafetalk.com/resources/library/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://cafetalk.com/resources/library/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1612952933136	Marionette	INFO	Stopped listening on port 45605
+1612953059287	geckodriver	INFO	Listening on 127.0.0.1:56901
+1612953059293	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileV4qXkV"
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612953061202	Marionette	INFO	Listening on port 33409
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612953061336	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612953061356	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+1612953083890	Marionette	INFO	Stopped listening on port 33409
+1612953087042	geckodriver	INFO	Listening on 127.0.0.1:48829
+1612953087048	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileq1tI9S"
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612953089235	Marionette	INFO	Listening on port 42177
+1612953089292	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612953089309	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+1612953113804	Marionette	INFO	Stopped listening on port 42177
+1612953117570	geckodriver	INFO	Listening on 127.0.0.1:38363
+1612953118577	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileeLg3ot"
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612953120699	Marionette	INFO	Listening on port 39995
+1612953120822	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612953120839	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://cafetalk.com/resources/library/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://cafetalk.com/resources/library/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1612953161212	Marionette	INFO	Stopped listening on port 39995
+1612953164971	geckodriver	INFO	Listening on 127.0.0.1:54219
+1612953164977	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileje0RrI"
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612953167021	Marionette	INFO	Listening on port 34137
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612953167127	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612953167146	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://cafetalk.com/resources/library/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://cafetalk.com/resources/library/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1612953201232	Marionette	INFO	Stopped listening on port 34137
+1612953228716	geckodriver	INFO	Listening on 127.0.0.1:45925
+1612953228720	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilepPSnTj"
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612953230912	Marionette	INFO	Listening on port 37927
+1612953230948	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612953230961	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1612953802023	geckodriver	INFO	Listening on 127.0.0.1:52001
+1612953802028	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileSb8o06"
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612953804102	Marionette	INFO	Listening on port 37795
+1612953804165	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612953804183	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+1612953826568	Marionette	INFO	Stopped listening on port 37795
+1612953831118	geckodriver	INFO	Listening on 127.0.0.1:46361
+1612953832126	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileFbxDty"
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612953834341	Marionette	INFO	Listening on port 34803
+1612953834473	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612953834495	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://cafetalk.com/resources/library/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://cafetalk.com/resources/library/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1612953868980	Marionette	INFO	Stopped listening on port 34803
+1612962225239	geckodriver	INFO	Listening on 127.0.0.1:55283
+1612962225244	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile3gsuhW"
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612962227401	Marionette	INFO	Listening on port 41827
+1612962227473	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612962227491	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+1612962250698	Marionette	INFO	Stopped listening on port 41827
+1612962255717	geckodriver	INFO	Listening on 127.0.0.1:59285
+1612962255722	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileBhmwUH"
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612962257884	Marionette	INFO	Listening on port 38041
+1612962257965	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612962257984	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1612962279691	Marionette	INFO	Stopped listening on port 38041
+1612962284041	geckodriver	INFO	Listening on 127.0.0.1:32967
+1612962284045	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilexQooXk"
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612962286131	Marionette	INFO	Listening on port 39323
+1612962286191	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612962286214	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1612962309467	Marionette	INFO	Stopped listening on port 39323
+1612962313890	geckodriver	INFO	Listening on 127.0.0.1:47799
+1612962313897	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileChGO7g"
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612962315979	Marionette	INFO	Listening on port 42677
+1612962316042	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612962316061	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1612962340025	Marionette	INFO	Stopped listening on port 42677
+1612962344130	geckodriver	INFO	Listening on 127.0.0.1:43871
+1612962344137	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilerTmf3e"
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612962346240	Marionette	INFO	Listening on port 43077
+1612962346272	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612962346291	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 107: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+1612962369224	Marionette	INFO	Stopped listening on port 43077
+1613049310797	geckodriver	INFO	Listening on 127.0.0.1:54913
+1613049310803	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileocbtIc"
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1613049312885	Marionette	INFO	Listening on port 32875
+1613049312939	Marionette	WARN	TLS certificate errors will be ignored for this session
+1613049312965	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 108: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 108: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 108: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 108: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1613049371256	Marionette	INFO	Stopped listening on port 32875
+1613049418535	geckodriver	INFO	Listening on 127.0.0.1:41745
+1613049418541	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile8NjTSN"
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1613049420700	Marionette	INFO	Listening on port 45993
+1613049420777	Marionette	WARN	TLS certificate errors will be ignored for this session
+1613049420798	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://cafetalk.com/resources/library/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://cafetalk.com/resources/library/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1613049520577	Marionette	INFO	Stopped listening on port 45993
+1613049523329	geckodriver	INFO	Listening on 127.0.0.1:58155
+1613049523335	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileANfyYM"
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1613049525530	Marionette	INFO	Listening on port 35609
+1613049525569	Marionette	WARN	TLS certificate errors will be ignored for this session
+1613049525589	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://cafetalk.com/resources/library/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://cafetalk.com/resources/library/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://cafetalk.com/resources/library/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1613049560811	Marionette	INFO	Stopped listening on port 35609
+1613049578508	geckodriver	INFO	Listening on 127.0.0.1:58055
+1613049578512	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilehaozMY"
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1613049580719	Marionette	INFO	Listening on port 34713
+1613049580839	Marionette	WARN	TLS certificate errors will be ignored for this session
+1613049580856	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://cafetalk.com/resources/library/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://cafetalk.com/resources/library/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1613049605530	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+JavaScript error: resource://gre/modules/Prompter.jsm, line 1190: NS_ERROR_NOT_AVAILABLE: prompt aborted by user
+JavaScript error: resource://gre/modules/Prompter.jsm, line 1082: AbortError: Actor 'Prompt' destroyed before query 'Prompt:Open' was resolved
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1613049630892	Marionette	INFO	Stopped listening on port 34713
+1613049659802	geckodriver	INFO	Listening on 127.0.0.1:32955
+1613049659807	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileEoJS6l"
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1613049662215	Marionette	INFO	Listening on port 34417
+1613049662335	Marionette	WARN	TLS certificate errors will be ignored for this session
+1613049662354	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://cafetalk.com/resources/library/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://cafetalk.com/resources/library/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1613049689087	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1613049844926	geckodriver	INFO	Listening on 127.0.0.1:58255
+1613049844931	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileVHWj9V"
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1613049847021	Marionette	INFO	Listening on port 42425
+1613049847063	Marionette	WARN	TLS certificate errors will be ignored for this session
+1613049847082	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://cafetalk.com/resources/library/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://cafetalk.com/resources/library/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://cafetalk.com/resources/library/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1613049880683	Marionette	INFO	Stopped listening on port 42425
+1613049890640	Marionette	INFO	Stopped listening on port 34417
+1613049905910	geckodriver	INFO	Listening on 127.0.0.1:38373
+1613049905915	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileBDn40O"
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1613049908190	Marionette	INFO	Listening on port 37239
+1613049908248	Marionette	WARN	TLS certificate errors will be ignored for this session
+1613049908268	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://cafetalk.com/resources/library/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://cafetalk.com/resources/library/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://cafetalk.com/resources/library/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1613049944725	Marionette	INFO	Stopped listening on port 37239
+1613050389014	geckodriver	INFO	Listening on 127.0.0.1:36567
+1613050389019	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilecUsB09"
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1613050391142	Marionette	INFO	Listening on port 45515
+1613050391256	Marionette	WARN	TLS certificate errors will be ignored for this session
+1613050391275	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://cafetalk.com/resources/library/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://cafetalk.com/resources/library/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1613050423318	Marionette	INFO	Stopped listening on port 45515
+1613050443487	geckodriver	INFO	Listening on 127.0.0.1:37147
+1613050443492	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilejenVNf"
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1613050445804	Marionette	INFO	Listening on port 39271
+1613050445922	Marionette	WARN	TLS certificate errors will be ignored for this session
+1613050445935	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://cafetalk.com/resources/library/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://cafetalk.com/resources/library/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://cafetalk.com/resources/library/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1613050482335	Marionette	INFO	Stopped listening on port 39271
+1613050506517	geckodriver	INFO	Listening on 127.0.0.1:44425
+1613050506522	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileM3lN9c"
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1613050508879	Marionette	INFO	Listening on port 35181
+1613050508962	Marionette	WARN	TLS certificate errors will be ignored for this session
+1613050508982	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://cafetalk.com/resources/library/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://cafetalk.com/resources/library/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://cafetalk.com/resources/library/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1613050544115	Marionette	INFO	Stopped listening on port 35181
+1613050564563	geckodriver	INFO	Listening on 127.0.0.1:57613
+1613050564568	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilek23tgo"
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1613050566778	Marionette	INFO	Listening on port 46139
+1613050566904	Marionette	WARN	TLS certificate errors will be ignored for this session
+1613050566930	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system.
+* Exhausted GL driver options.
+JavaScript warning: https://cafetalk.com/resources/library/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://cafetalk.com/resources/library/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1613050598480	Marionette	INFO	Stopped listening on port 46139
