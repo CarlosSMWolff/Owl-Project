@@ -216,7 +216,7 @@ def ModifyCalendarItalki(month_desired,day_desired,hour_req_ini,min_req_ini,hour
     password.send_keys("Shenyixin00")
 
     driver.find_element_by_id("login").click()
-    time.sleep(3)
+    time.sleep(10.)
 
     try:
         driver.find_element_by_xpath("//span[text()='Continuar']").click()
