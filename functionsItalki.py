@@ -81,11 +81,11 @@ def request_info_IT_web():
     # get web page
     driver.get(urlpage)
 
-    time.sleep(2)
+    time.sleep(6)
 
     # Click "Iniciar sesión"
     driver.find_element_by_xpath("//span[text()='Iniciar sesión']").click()
-
+    time.sleep(0.5)
     # Introducir credenciales
     username = driver.find_element_by_id("username_id")
     username.clear() # Not sure what this is for
@@ -98,7 +98,7 @@ def request_info_IT_web():
     password.send_keys("Shenyixin00")
 
     driver.find_element_by_id("login").click()
-    time.sleep(3)
+    time.sleep(10.)
 
     try:
         driver.find_element_by_xpath("//span[text()='Continuar']").click()
@@ -109,8 +109,8 @@ def request_info_IT_web():
     list_class_info = []
 
     index_block = 0 # I look at the first block, where all the new classes appear
-    #driver.get("https://teach.italki.com/dashboard") # I don't really need to do this, it enters directly in dashboard
-    time.sleep(2.)
+    #driver.get("https://teach.italki.com/dashboard") # This is to make sure I go to dashboard, but this is where I always go after login. If that changes sometime, add this
+    #time.sleep(10.)
     lesson_block_element=driver.find_element_by_class_name("dashboard-lesson")
     lesson_info_blocks = lesson_block_element.find_elements_by_class_name("lesson-info")
     accion_necesaria_element=lesson_info_blocks[index_block+1]
@@ -142,29 +142,33 @@ def request_info_IT_web():
             duration = float(re.search('\n(.*) min', lesson_info).group(1))
 
             # Date and time
-            date_info = class_element.find_element_by_class_name("LessonItem-p3-newTime").text.split()
+            request_title= class_element.find_element_by_class_name("LessonItem-p3-title").text
 
-            month_str=date_info[3]
-            month_dict = {"ene.":1, "feb.":2, "mar.": 3, "abr.": 4, "may.":5, "jun.":5, \
+            if not("cancelación" in request_title):
+                # Date and time
+                date_info = class_element.find_element_by_class_name("LessonItem-p3-newTime").text.split()
+
+                month_str=date_info[3]
+                month_dict = {"ene.":1, "feb.":2, "mar.": 3, "abr.": 4, "may.":5, "jun.":5, \
                           "jul.":6, "ago.": 8, "sep.": 9, "oct.": 10, "nov.": 11, "dic.":12}
-            month = month_dict[month_str]
-            day=date_info[1]
-            
-            time_ini = date_info[5]
+                month = month_dict[month_str]
+                day=date_info[1]
 
-            current_month = datetime.date.today().month
-            current_year = datetime.date.today().year
+                time_ini = date_info[5]
 
-            if (month>=current_month):
-                year = str(current_year)
-            else:
-                year = str(current_year +1)
-                
-            date_req_str = " ".join([str(month),day,year,time_ini])
-            dateStart = datetime.datetime.strptime(date_req_str, '%m %d %Y %H:%M')
-            dateEnd = dateStart + datetime.timedelta(minutes=duration)
+                current_month = datetime.date.today().month
+                current_year = datetime.date.today().year
 
-            list_class_info.append([student_name,dateStart, dateEnd, duration, request_id])
+                if (month>=current_month):
+                        year = str(current_year)
+                else:
+                        year = str(current_year +1)
+
+                date_req_str = " ".join([str(month),day,year,time_ini])
+                dateStart = datetime.datetime.strptime(date_req_str, '%m %d %Y %H:%M')
+                dateEnd = dateStart + datetime.timedelta(minutes=duration)
+
+                list_class_info.append([student_name,dateStart, dateEnd, duration, request_id])
             
             
         column_names = ["Name","StartDate","EndDate","Duration","Id"]
@@ -179,11 +183,11 @@ def request_info_IT_web():
     # Info has been extracted
     # Now: 
     #
-    if acciones==0:
+    if len(list_class_info)==0:
         print("No new classes found")
         return -1 # No new classes
     else:
-        print(str(acciones)+" new classes found!")
+        print(str(len(list_class_info))+" new classes found!")
         return dfNewIT
 
     
@@ -220,7 +224,7 @@ def ModifyCalendarItalki(month_desired,day_desired,hour_req_ini,min_req_ini,hour
         pass
 
     driver.get("https://teach.italki.com/console/lessons")
-    time.sleep(3)
+    time.sleep(4)
 
     # Enter in the calendar
     driver.find_element_by_xpath("//span[text()='Calendario de profesor']").click()
