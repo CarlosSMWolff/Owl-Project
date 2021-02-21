@@ -12,6 +12,7 @@ import re
 import numpy as np
 import datetime
 import os 
+from selenium.webdriver.common.action_chains import ActionChains
 
 
 def find_current_date(driver):
@@ -272,14 +273,9 @@ def ModifyCalendarItalki(month_desired,day_desired,hour_req_ini,min_req_ini,hour
     # Curate the times for Italki time-slots
     if(min_req_ini<30):
         min_req_ini=0
-    else:
-        min_req_ini=30
-
     if(min_req_fin>30):
         min_req_fin=0
         hour_req_fin = hour_req_fin+1
-    else:
-        min_req_fin=30
 
     time_req_ini = datetime.time(hour=hour_req_ini,minute=min_req_ini)
     time_req_fin = datetime.time(hour=hour_req_fin,minute=min_req_fin)
@@ -339,30 +335,36 @@ def ModifyCalendarItalki(month_desired,day_desired,hour_req_ini,min_req_ini,hour
     #Action: 1- Reduce slot before requested time. 2-Create new slot AFTER the requested time.  
     elif (index_slot_initial==index_slot_final):
         
-
-        # 1- Reduce FINAL time of the block to the initial-requested
         timeslot = timeslot_list[index_slot_initial]
+        init_slot_time, final_slot_time = TimesTimeslot(timeslot)
+        
+        if (init_req_time==init_slot_time)&(fin_req_time==final_slot_time):
+            # If perfect match, just erase the block
+            papelera_elements=driver.find_elements_by_css_selector('[alt="delete"]')
+            ActionChains(driver).move_to_element(papelera_elements[index_slot_initial]).click().perform()
+                
+        else:
+            # 1- Reduce FINAL time of the block to the initial-requested
 
+            final_time_slot=TimesTimeslotString(timeslot)[1] # Save the final time of the slot!    
+            menu=timeslot.find_element_by_class_name("TimeSlot-menu-right")
+            SetTimeInMenu(menu,time_req_ini_str)  
 
-        final_time_slot=TimesTimeslotString(timeslot)[1] # Save the final time of the slot!    
-        menu=timeslot.find_element_by_class_name("TimeSlot-menu-right")
-        SetTimeInMenu(menu,time_req_ini_str)  
+            # 2- Create a new slot
+            driver.find_element_by_class_name("add-time-slot").click()
 
-        # 2- Create a new slot
-        driver.find_element_by_class_name("add-time-slot").click()
+            #Re-define time_slots since there is a new one
+            timeslot_list = driver.find_elements_by_class_name("TimeSlot")
+            # The new slot must follow the slot we just modified
+            timeslot = timeslot_list[index_slot_initial+1]
 
-        #Re-define time_slots since there is a new one
-        timeslot_list = driver.find_elements_by_class_name("TimeSlot")
-        # The new slot must follow the slot we just modified
-        timeslot = timeslot_list[index_slot_initial+1]
-
-        #Set initial time
-        menu=timeslot.find_element_by_class_name("TimeSlot-menu-left")
-        SetTimeInMenu(menu,time_req_fin_str)  
-        time.sleep(1)
-        #Set final time
-        menu=timeslot.find_element_by_class_name("TimeSlot-menu-right")
-        SetTimeInMenu(menu,final_time_slot)  
+            #Set initial time
+            menu=timeslot.find_element_by_class_name("TimeSlot-menu-left")
+            SetTimeInMenu(menu,time_req_fin_str)  
+            time.sleep(1)
+            #Set final time
+            menu=timeslot.find_element_by_class_name("TimeSlot-menu-right")
+            SetTimeInMenu(menu,final_time_slot)  
 
     # CASE 5: We have two overlapping blocks
     else:
