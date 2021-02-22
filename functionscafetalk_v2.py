@@ -73,7 +73,9 @@ def get_timeslot_info(blocked_slot):
     year_ini = int(info_str[2])
     time_ini_str = info_str[3][0:-2].split(":")
     am_pm_str = info_str[3][-2:]
-    hour_ini = int(time_ini_str[0])+am_pm_hours[am_pm_str]
+    hour_ini = int(time_ini_str[0])
+    if (am_pm_str=="pm")&(hour_ini!=12):
+        hour_ini = hour_ini + 12
     min_ini = int(time_ini_str[1])
 
     month_fin_str = info_str[5]
@@ -82,7 +84,9 @@ def get_timeslot_info(blocked_slot):
     year_fin = int(info_str[7])
     time_fin_str = info_str[8][0:-2].split(":")
     am_pm_str = info_str[8][-2:]
-    hour_fin = int(time_fin_str[0])+am_pm_hours[am_pm_str]
+    hour_fin = int(time_fin_str[0])
+    if (am_pm_str=="pm")&(hour_fin!=12):
+        hour_fin = hour_fin + 12
     min_fin = int(time_fin_str[1])
     year = year_ini
     
