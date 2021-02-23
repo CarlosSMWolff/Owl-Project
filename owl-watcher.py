@@ -107,10 +107,15 @@ for idx in range(N):
             # Manda el email informativo!
             send_mail_calendar_change("Italki",student_name,statusItalki,\
             date_lesson,time_lesson,duration,before_ss,after_ss)
+            
+            dfOldNew.to_csv(savefilename,index=False)
             	
             time.sleep(1) # Give it a rest
+        # If its homework class, just update the register
+        else:
+            dfOldNew.to_csv(savefilename,index=False)
 #print("Updating Cafetalk request database")               	
-dfOldNew.to_csv(savefilename,index=False)
+
 
 #######################################################
 # SECOND PART: Find emails from Italki
@@ -189,10 +194,17 @@ if not (isinstance(dfNewIT, int)):
                 send_mail_calendar_change("CafeTalk",student_name,statusCafetalk,\
                 date_lesson,time_lesson,duration,before_ss,after_ss)
                 
+                # I update the register INSIDE the loop. This way, if a new Owl-watcher is launched while this is still operating, the new will see the update
+                dfOldNew.to_csv(savefilename,index=False)
+                
                 time.sleep(1) # Give it a rest
+                    
+            # If its homework class, just update the register
+            else:
+                dfOldNew.to_csv(savefilename,index=False)
 
 #print("Updating Italki request database")        
-dfOldNew.to_csv(savefilename,index=False)
+
 
 print("\nClosing Project Owl at ") 
 print(datetime.datetime.now())
