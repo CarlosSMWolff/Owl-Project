@@ -103,23 +103,30 @@ def request_info_CT(body,dfOld):
 
         
     else:
-            student_name = re.search('Student Name:(.*)\r',body).group(1)
-            date_req=re.search('First Choice: (.*)\r',body).group(1)
-            request_id=int(re.search('Request ID: (.*)\r',body).group(1))
-            date_req_splt = date_req.split()
-            time = date_req_splt[4]
-            year = date_req_splt[3]
-            day = date_req_splt[2][:-1]
-            month_str = date_req_splt[1]
-            
-            
-            month_dict = {"Jan":1, "Feb":2, "Mar":3, "Apr":4, "May":5, "Jun":6, "Jul":7, "Aug":8, "Sep":9, "Oct":10, "Nov":11, "Dec":12}
-            month = month_dict[month_str]
-            date_req_str = " ".join([str(month),day,year,time])
-            
-            dateStart = datetime.datetime.strptime(date_req_str, '%m %d %Y %H:%M')
             duration = int(re.search('Lesson Duration: (.*)minutes',body).group(1))
-            dateEnd = dateStart + datetime.timedelta(minutes=duration)  
+            student_name = re.search('Student Name:(.*)\r',body).group(1)
+            request_id=int(re.search('Request ID: (.*)\r',body).group(1))
+            
+            if duration>0:
+                date_req=re.search('First Choice: (.*)\r',body).group(1)
+                date_req_splt = date_req.split()
+                time = date_req_splt[4]
+                year = date_req_splt[3]
+                day = date_req_splt[2][:-1]
+                month_str = date_req_splt[1]
+                month_dict = {"Jan":1, "Feb":2, "Mar":3, "Apr":4, "May":5, "Jun":6, "Jul":7, "Aug":8, "Sep":9, "Oct":10, "Nov":11, "Dec":12}
+                month = month_dict[month_str]
+                date_req_str = " ".join([str(month),day,year,time])
+            
+                dateStart = datetime.datetime.strptime(date_req_str, '%m %d %Y %H:%M')
+                dateEnd = dateStart + datetime.timedelta(minutes=duration)  
+            else:
+                dateStart = datetime.datetime.today()
+                dateEnd = datetime.datetime.today()
+                
+                
+            
+
     
     return student_name, dateStart, dateEnd, duration, request_id
 
