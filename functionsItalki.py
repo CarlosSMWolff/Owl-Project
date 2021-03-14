@@ -89,8 +89,10 @@ def request_info_IT_web():
     driver.get(urlpage)
 
     #time.sleep(6)
+    wait_for_element = 20 # Time to wait for buttons to appear
 
     # Click "Iniciar sesión"
+    WebDriverWait(driver, wait_for_element).until(EC.element_to_be_clickable((By.CLASS_NAME, "Header-button-isHomeHeader")))
     driver.find_element_by_xpath("//span[text()='Iniciar sesión']").click()
     #time.sleep(0.5)
     # Introducir credenciales
@@ -119,12 +121,15 @@ def request_info_IT_web():
     #driver.get("https://teach.italki.com/dashboard") # This is to make sure I go to dashboard, but this is where I always go after login. If that changes sometime, add this
     #time.sleep(10.)
     
-    wait_for_element = 20 # Time to wait
+    
     lesson_block_element = WebDriverWait(driver, wait_for_element).until(EC.element_to_be_clickable((By.CLASS_NAME, "dashboard-lesson")))
     lesson_info_blocks = lesson_block_element.find_elements_by_class_name("lesson-info")
     accion_necesaria_element=lesson_info_blocks[index_block+1]
     acciones = int(accion_necesaria_element.text.split('\n')[0])
     # Si hay accion necesaria
+    if acciones==0:
+        print("Nothing found")
+    
     if acciones>0:
         #time.sleep(2.)
         accion_necesaria_element.click()
