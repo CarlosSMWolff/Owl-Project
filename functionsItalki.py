@@ -14,6 +14,12 @@ import datetime
 import os 
 from selenium.webdriver.common.action_chains import ActionChains
 
+#Imports for waiting
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import TimeoutException
+from selenium.webdriver.common.by import By
+
 
 def find_current_date(driver):
     # This function tells us  month and year of the calendar currently displayed
@@ -74,7 +80,7 @@ def SetTimeInMenu(menu,time_str):
 
 def request_info_IT_web():
 
-    print("Retrieving new lesson request from Italki website")
+    print("Checking new lesson request from Italki website")
     ## ============ NEW FUNCTION: We extract info from Italki website
     
     urlpage= 'https://teach.italki.com/?hl=es'
@@ -82,24 +88,24 @@ def request_info_IT_web():
     # get web page
     driver.get(urlpage)
 
-    time.sleep(6)
+    #time.sleep(6)
 
     # Click "Iniciar sesión"
     driver.find_element_by_xpath("//span[text()='Iniciar sesión']").click()
-    time.sleep(0.5)
+    #time.sleep(0.5)
     # Introducir credenciales
     username = driver.find_element_by_id("username_id")
     username.clear() # Not sure what this is for
     username.send_keys("carmen.doncel.arauzo@gmail.com")
 
-    time.sleep(0.5)
+    #time.sleep(0.5)
 
     password = driver.find_element_by_id("password_id")
     password.clear() # Not sure what this is for
     password.send_keys("Shenyixin00")
 
     driver.find_element_by_id("login").click()
-    time.sleep(10.)
+    #time.sleep(10.)
 
     try:
         driver.find_element_by_xpath("//span[text()='Continuar']").click()
@@ -112,17 +118,20 @@ def request_info_IT_web():
     index_block = 0 # I look at the first block, where all the new classes appear
     #driver.get("https://teach.italki.com/dashboard") # This is to make sure I go to dashboard, but this is where I always go after login. If that changes sometime, add this
     #time.sleep(10.)
-    lesson_block_element=driver.find_element_by_class_name("dashboard-lesson")
+    
+    wait_for_element = 20 # Time to wait
+    lesson_block_element = WebDriverWait(driver, wait_for_element).until(EC.element_to_be_clickable((By.CLASS_NAME, "dashboard-lesson")))
     lesson_info_blocks = lesson_block_element.find_elements_by_class_name("lesson-info")
     accion_necesaria_element=lesson_info_blocks[index_block+1]
     acciones = int(accion_necesaria_element.text.split('\n')[0])
     # Si hay accion necesaria
     if acciones>0:
-        time.sleep(2.)
+        #time.sleep(2.)
         accion_necesaria_element.click()
-        time.sleep(2.)
+        #time.sleep(2.)
 
         # Get info about all the new classes
+        WebDriverWait(driver, wait_for_element).until(EC.element_to_be_clickable((By.CLASS_NAME, "LessonCard-action_required")))
         class_elements=driver.find_elements_by_class_name("LessonCard-action_required")
         nclasses = len(class_elements)
 
@@ -175,7 +184,7 @@ def request_info_IT_web():
         column_names = ["Name","StartDate","EndDate","Duration","Id"]
         dfNewIT = pd.DataFrame(list_class_info, columns=column_names)
 
-    time.sleep(1)
+    #time.sleep(1)
     driver.quit()
 
     #######=================================
