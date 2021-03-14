@@ -88,26 +88,20 @@ def request_info_IT_web():
     # get web page
     driver.get(urlpage)
 
-    #time.sleep(6)
     wait_for_element = 20 # Time to wait for buttons to appear
 
     # Click "Iniciar sesión"
     WebDriverWait(driver, wait_for_element).until(EC.element_to_be_clickable((By.CLASS_NAME, "Header-button-isHomeHeader")))
     driver.find_element_by_xpath("//span[text()='Iniciar sesión']").click()
-    #time.sleep(0.5)
     # Introducir credenciales
     username = driver.find_element_by_id("username_id")
     username.clear() # Not sure what this is for
     username.send_keys("carmen.doncel.arauzo@gmail.com")
-
-    #time.sleep(0.5)
-
     password = driver.find_element_by_id("password_id")
     password.clear() # Not sure what this is for
     password.send_keys("Shenyixin00")
 
     driver.find_element_by_id("login").click()
-    #time.sleep(10.)
 
     try:
         driver.find_element_by_xpath("//span[text()='Continuar']").click()
@@ -216,33 +210,33 @@ def ModifyCalendarItalki(month_desired,day_desired,hour_req_ini,min_req_ini,hour
 
     time.sleep(2)
 
- 
+    wait_for_element = 20
+    # Click "Iniciar sesión"
+    WebDriverWait(driver, wait_for_element).until(EC.element_to_be_clickable((By.CLASS_NAME, "Header-button-isHomeHeader")))
     driver.find_element_by_xpath("//span[text()='Iniciar sesión']").click()
-
     # Introducir credenciales
     username = driver.find_element_by_id("username_id")
     username.clear() # Not sure what this is for
     username.send_keys("carmen.doncel.arauzo@gmail.com")
-
-    time.sleep(0.5)
-
     password = driver.find_element_by_id("password_id")
     password.clear() # Not sure what this is for
     password.send_keys("Shenyixin00")
 
     driver.find_element_by_id("login").click()
-    time.sleep(10.)
-
+    
     try:
         driver.find_element_by_xpath("//span[text()='Continuar']").click()
     except:
         pass
-
+        
+    WebDriverWait(driver, wait_for_element).until(EC.element_to_be_clickable((By.CLASS_NAME, "dashboard-lesson")))
     driver.get("https://teach.italki.com/console/lessons")
-    time.sleep(4)
-
+    #WebDriverWait(driver, wait_for_element).until(EC.element_to_be_clickable((By.CLASS_NAME, "submenu-sicon")))
+    #time.sleep(2)
     # Enter in the calendar
-    driver.find_element_by_xpath("//span[text()='Calendario de profesor']").click()
+    WebDriverWait(driver,wait_for_element).until(EC.element_to_be_clickable((By.XPATH, "//span[text()='Calendario de profesor']"))).click()
+    
+    #driver.find_element_by_xpath("//span[text()='Calendario de profesor']").click()
     time.sleep(1)
     
     
