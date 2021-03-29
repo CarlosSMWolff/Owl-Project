@@ -78,7 +78,7 @@ def SetTimeInMenu(menu,time_str):
     item = items[indextime]
     item.click()
 
-def request_info_IT_web():
+def request_info_IT_web(dfOld):
 
     print("Checking new lesson request from Italki website")
     ## ============ NEW FUNCTION: We extract info from Italki website
@@ -154,6 +154,18 @@ def request_info_IT_web():
             request_title= class_element.find_element_by_class_name("LessonItem-p3-title").text
 
             if not("cancelación" in request_title):
+            
+                if "cambio" in request_title:
+                    # Si esto es un cambio de hora, tengo que rehacer el ID
+                    
+                    # == See how many previous classes with this ID are there
+                    # Get list of previous IDs without any extension (first 10 digits)
+                    id_pre_basic=[str(x)[:9] for x in dfOld.Id.tolist()]
+                    # Find how many previous request exist like this one
+                    nprev=sum([int(str(request_id)==x) for x in id_pre_basic])
+                    # Update the request_id
+                    request_id=int(str(request_id)+(str(nprev+1)))
+            
                 # Date and time
                 date_info = class_element.find_element_by_class_name("LessonItem-p3-newTime").text.split()
 

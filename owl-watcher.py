@@ -120,6 +120,7 @@ for idx in range(N):
 #######################################################
 # SECOND PART: Find emails from Italki
 # Two types of mails
+'''
 print("Reading Italki new lessons")
 dataIT = mail.search(None,'SUBJECT request FROM "noreply@italki.com"')
 mail_ids = dataIT[1]
@@ -132,17 +133,22 @@ id_list=sorted(id_list1+id_list2)
 
 N = min(15,len(id_list)) # Number of LAST italki emails to fetch
 n_messages = len(id_list)
-
+'''
 # ===========================================
 # Enter Italki and check new lessons!
 
-dfNewIT = request_info_IT_web()
-
 savefilename=dir_path+'/Requested-Lessons/IT-lessons-requested.csv'
 dfOldIT=pd.read_csv(savefilename)
+
+dfNewIT = request_info_IT_web(dfOldIT)
+
 # Look for NEW, UNPROCESSED REQUESTS
 oldIDlist = dfOldIT["Id"].tolist()
 dfOldNew = dfOldIT.copy()
+
+
+
+
 
 
 if not (isinstance(dfNewIT, int)):
